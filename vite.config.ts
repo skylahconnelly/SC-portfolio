@@ -57,7 +57,7 @@
     },
     build: {
       target: 'esnext',
-      outDir: 'build',
+      outDir: 'build', // output directory for the build; SC changed this
     },
     server: {
       port: 3000,
