@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Questrial';
+  src: url('/fonts/Questrial-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 @custom-variant dark (&:is(.dark *));
@@ -262,4 +269,11 @@ html {
 .animate-fade-in-down {
   animation: fade-in-down 0.6s ease-out forwards;
   opacity: 0;
+}
+
+@font-face {
+  font-family: 'Questrial';
+  src: url('/fonts/Questrial-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
 }

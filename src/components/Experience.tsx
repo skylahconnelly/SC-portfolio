@@ -78,7 +78,7 @@ export function Experience() {
     <section id="experience" className="py-32 bg-slate-50" ref={ref}>
       <div className="container mx-auto px-6">
         <div className={`mb-16 max-w-4xl mx-auto pl-1 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          <div className="text-[rgb(15,22,43)] mb-4 font-[Questrial] font-bold text-[24px]">Career Journey</div>
+          <div className="text-[rgb(15,22,43)] mb-4 font-Questrial text-[24px]">Career Journey</div>
         </div>
 
         <div className="max-w-4xl mx-auto">

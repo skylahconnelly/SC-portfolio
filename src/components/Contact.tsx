@@ -51,7 +51,7 @@ export function Contact() {
     <section id="contact" className="py-32 bg-slate-50" ref={ref}>
       <div className="container mx-auto px-6">
         <div className={`max-w-3xl mx-auto text-center transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          <div className="text-slate-600 mb-4 text-[20px] font-[Questrial]">Get In Touch</div>
+          <div className="text-slate-600 mb-4 text-[20px] font-Questrial">Get In Touch</div>
           <h2 className="text-slate-900 mb-6 font-bold">Let&apos;s Chat About UX and Risk.</h2>
           
           <p className="text-slate-700 mb-12">

@@ -20,8 +20,12 @@ export function HeroSection() {
           </div>
           
           <h1 className="text-slate-900 mb-6 text-6xl animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
-            <span className="font-bold text-[rgb(15,22,43)] text-[48px] font-[Questrial]">Skylah Connelly</span>
+          <span className="font-questrial text-[48px] ">
+  Skylah Connelly
+</span>
           </h1>
+
+          
           
           <p className="text-slate-700 max-w-2xl mb-8 animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
             I&apos;m a Human Factors Engineer and I love to create safe, intuitive medical devices to empower

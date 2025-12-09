@@ -60,7 +60,7 @@ export function About() {
     <section id="about" className="py-32 bg-white" ref={ref}>
       <div className="container mx-auto px-6">
         <div className={`max-w-4xl mx-auto transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          <div className="text-[rgb(15,22,43)] mb-4 font-[Questrial] font-bold text-[24px]">About Me</div>
+          <div className="text-[rgb(15,22,43)] mb-4 font-Questrial text-[24px]">About Me</div>
           <h2 className="text-slate-900 mb-8 font-[Poppins] not-italic">
             After graduating from Duke University with a degree in Biomedical Engineering, I spent time working in the hematology and orthopedic spaces - my favorite part was always talking to users.
           </h2>
@@ -108,7 +108,7 @@ export function About() {
                 <div className="mb-4 text-slate-900">
                   {feature.icon}
                 </div>
-                <h3 className="text-[rgb(15,22,43)] mb-2 font-[Questrial] text-[20px] font-bold">{feature.title}</h3>
+                <h3 className="text-[rgb(15,22,43)] mb-2 font-Questrial text-[20px]">{feature.title}</h3>
                 <p className="text-slate-600">{feature.description}</p>
               </div>
             ))}
